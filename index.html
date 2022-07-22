@@ -27,16 +27,16 @@
   <body>
     <!-- header -->
     <header>
-      <div class="header__content">
+      <div class="header__content" id="head">
         <p>Bake</p>
         <nav>
-          <ul>
-            <li><a href="" class="active"> Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Service</a></li>
-            <li><a href="">Galerry</a></li>
-            <li><a href="">Client</a></li>
-            <li><a href="">Contact</a></li>
+          <ul id="mainNav">
+            <li><a href="#head" class="active"> Home</a></li>
+            <li><a href="#intro">About</a></li>
+            <li><a href="#service">Service</a></li>
+            <li><a href="#galerry">Galerry</a></li>
+            <li><a href="#team">Client</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
       </div>
@@ -50,7 +50,7 @@
       </div>
     </section>
     <!-- intro -->
-    <section class="intro">
+    <section class="intro" id="intro">
       <div class="intro__item text__1">
         <div class="text">
           <h3>Tradition</h3>
@@ -139,7 +139,7 @@
       </div>
     </section>
     <!-- service -->
-    <section class="service">
+    <section class="service" id="service">
       <h2>Our SerVices</h2>
       <div class="service__content">
         <div class="service__content">
@@ -148,7 +148,7 @@
             <h3>Tasty Cakes</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Perferendis in suscipit eligendi odit eveniet architecto?
+              Perferendis in suscipit eligend
             </p>
             <button id="btn">Learn More</button>
           </div>
@@ -183,7 +183,7 @@
       </div>
     </section>
     <!-- galerry -->
-    <section class="galerry">
+    <section class="galerry" id="galerry">
       <h2>Our Galery</h2>
       <div class="galery__content">
         <figure class="galerry__item galerry__g1">
@@ -248,7 +248,7 @@
       </div>
     </section>
     <!-- team -->
-    <section class="team">
+    <section class="team" id="team">
       <h2>Bake Team</h2>
       <div class="team__content">
         <div class="team__item">
@@ -271,7 +271,7 @@
             </div>
           </div>
         </div>
-        <div class="team__item">
+        <div class="team__item team__item2">
           <img src="./img/t2.jpg" alt="" />
           <div class="team__tilte">
             <h3>Jhone Simon</h3>
@@ -291,7 +291,7 @@
             </div>
           </div>
         </div>
-        <div class="team__item">
+        <div class="team__item team__item3">
           <img src="./img/t3.jpg" alt="" />
           <div class="team__tilte">
             <h3>Jhone Simon</h3>
@@ -311,7 +311,7 @@
             </div>
           </div>
         </div>
-        <div class="team__item">
+        <div class="team__item team__item4">
           <img src="./img/t4.jpg" alt="" />
           <div class="team__tilte">
             <h3>Jhone Simon</h3>
@@ -331,7 +331,7 @@
             </div>
           </div>
         </div>
-        <div class="team__item">
+        <div class="team__item team__item5">
           <img src="./img/t1.jpg" alt="" />
           <div class="team__tilte">
             <h3>Jhone Simon</h3>
@@ -406,9 +406,148 @@
       </div>
     </section>
     <!-- contact -->
-    <div class="contact"></div>
-    <footer></footer>
+    <div class="contact" id="contact">
+      <h2>CONTACT</h2>
+      <div class="contact__form">
+        <form action="">
+          <input type="text" placeholder="Name" />
+          <input type="text" placeholder="Last Name" />
+          <input type="email" placeholder="Email" />
+          <input type="tel" placeholder="Phone" />
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Message"
+          ></textarea>
+          <button type="submit" class="haha" id="haha">Send</button>
+        </form>
+      </div>
+      <div class="contact__map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.0465440816333!2d106.87975664961724!3d10.884064560137645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174df614224e7d1%3A0x542586926b08ab95!2zVGhp4buBbiBWaeG7h24gRHV5IEzhu7Fj!5e0!3m2!1sen!2s!4v1658197394994!5m2!1sen!2s"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <div class="contact__info">
+          <div class="contact__item">
+            <i class="fa-solid fa-house"></i>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+          <div class="contact__item">
+            <i class="fa-solid fa-phone"></i>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+          <div class="contact__item">
+            <i class="fa-solid fa-envelope"></i>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer__main">
+        <div class="footer__item">
+          <h3>About Us</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+            tenetur quaerat, magnam sit a voluptatum.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
+            quas impedit maxime vel ducimus minima sapiente tempore. Officia,
+            eligendi, aliquid dolores ex atque cumque ipsum velit at, aliquam
+            nihil nostrum.8
+          </p>
+          <div class="footer__icon">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-google-plus-g"></i>
+            <i class="fa-brands fa-twitter"></i>
+          </div>
+        </div>
+        <div class="footer__item">
+          <h3>Working Time</h3>
+          <div class="footer__time">
+            <p>Monday</p>
+            <p>9h30-18h30</p>
+          </div>
+          <div class="footer__time">
+            <p>Tuesday</p>
+            <p>9h30-18h30</p>
+          </div>
+          <div class="footer__time">
+            <p>Webnesday</p>
+            <p>9h30-18h30</p>
+          </div>
+          <div class="footer__time">
+            <p>Thursday</p>
+            <p>9h30-18h30</p>
+          </div>
+          <div class="footer__time">
+            <p>Friday</p>
+            <p>9h30-18h30</p>
+          </div>
+          <div class="footer__time">
+            <p>Saturday</p>
+            <p>9h30-18h30</p>
+          </div>
+          <div class="footer__time">
+            <p>Sunday</p>
+            <p>9h30-18h30</p>
+          </div>
+        </div>
+        <div class="footer__item">
+          <h3>Twitter Us</h3>
+          <p>ultricies nec, pellentesque eu, pretium quis</p>
+          <p>ultricies nec, pellentesque eu, pretium quis</p>
+          <p>ultricies nec, pellentesque eu, pretium quis</p>
+          <p>ultricies nec, pellentesque eu, pretium quis</p>
+        </div>
+        <div class="footer__item">
+          <h3>SUBSCRIBE US</h3>
+          <form action="" class="footer__sub">
+            <input type="email" placeholder="name@example.com" />
+            <button type="submit">Send</button>
+          </form>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione
+            enim soluta at voluptate vitae quae omnis tempora, voluptas sint
+            corrupti.
+          </p>
+        </div>
+      </div>
+      <div class="footer__copyright">
+        <p>&copy; 2022 Lorem ipsum dolor sit amet.</p>
+      </div>
+    </footer>
+    <!-- bach to top -->
+    <a class="backToTop cd-top text-replace js-cd-top" href="#head">
+      <i class="fa-solid fa-angle-up"></i>
+    </a>
+    <script>
+      const mainNav = document.getElementById("mainNav");
+      const listNav = mainNav.getElementsByTagName("li");
+      let i = 0;
+      for (i; i < listNav.length; i++) {
+        listNav[i].addEventListener("click", function () {
+          var current = document.querySelector("#mainNav .active");
+          // xoa class active cua the dang dc gan
+          current.className = current.className.replace("active", "");
+          // them class active vao cho the li
+          this.className += "active";
+        });
+      }
+    </script>
     <!-- animation -->
+
     <!-- Thu vien jquery ho tro chay animation -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <!-- waypoints -->
@@ -446,5 +585,8 @@
         },
       });
     </script>
+    <!-- Backtotopjs -->
+    <script src="./js/util.js"></script>
+    <script src="./js/main_backtotop.js"></script>
   </body>
 </html>
